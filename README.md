@@ -1,51 +1,43 @@
-# Modèle de dépôt Github pour les standards CNIG
+# Standard Cartographies des études de danger
 
-> [!IMPORTANT]
-> **Attention** : Le modèle de fichier README débute après ce paragraphe. Dans la suite,
->
-> * toutes les consignes en citation, comme cette ligne, doivent être supprimées,
-> * tout ce qui est <mark>_surligné_</mark> doit être remplacé.
->
-> Vous trouverez l'ensemble des consignes et conseils pour utiliser ce modèle de dépôt sur [cette page de la documentation](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/realisation-du-standard/utiliser-le-modele-de-depot-github). 
+Ce standard CNIG, élaboré par le [groupe de travail Cartographies des études de danger](https://cnig.gouv.fr/gt-cartographies-des-etudes-de-danger-a30202.html) définit les cartographies des études de dangers transmises par l’exploitant dans le cadre d’une procédure d’autorisation environnementale pour les installations classées pour la protection de l’environnement, en application des articles 11 et 12 de l’arrêté du 29 septembre 2005 relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
 
----
-<!-- Supprimer les trois tirets précédents (qui insèrent une ligne) -->
-
-# Standard <mark>_Nom_</mark>
-
-<!-- Indiquer le nom du standard à la place de <mark>_Nom_</mark>. Le texte entre les balises "<mark>_" et "_</mark>" apparaît en italique surligné et doit être remplacé dans ce modèle -->
-
-> _Insérer une description du standard et des données concernées en quelques lignes. Ici comme dans la suite, il est recommandé de réutiliser le contenu du mandat du GT ou d'autres documents déjà rédigés. Voici plusieurs exemples pour vous inspirer dans la rédaction :_
->
-> * _[standard des opération d'aménagement](https://github.com/cnigfr/schema-operations-amenagement/)_
-> * _[standard risques](https://github.com/cnigfr/Geostandards-Risques)._
->
-> _Afin de clarifier la lecture de cette description sur le site schema.data.gouv, préciser ici lorsque le standard n'est pas accompagné d'un schéma sur schema.data.gouv:_
->
 > [!TIP]
-> Ce standard CNIG ne possède pas de schéma de données directement accessible sur schema.data.gouv.fr. 
+> Ce standard CNIG ne possède pas de schéma de données directement accessible sur schema.data.gouv.fr.
 
-Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : <mark>_insérer le lien vers la page du GT_</mark>.
+Davantage de documentation peut être trouvée sur le site du CNIG sur [la page du GT CNIG](https://cnig.gouv.fr/gt-cartographies-des-etudes-de-danger-a30202.html).
 
-> Insérer une (ou plusieurs) image(s) pour illustrer la thématique en remplaçant le logo du CNIG ci-dessous.  
-<!-- Pour remplacer le logo du CNIG, suivre le modèle "![texte alternatif](lien vers l'image) Les images peuvent être chargées sur le dépôt Github dans un dossier image -->
-![logo du CNIG à remplacer par l'image du standard](https://cnig.gouv.fr/IMG/png/cnig2022_geolocalise-petit.png)
+![logo MTE](./ressources/logo-mte.jpg)![logo du CNIG](https://cnig.gouv.fr/IMG/png/cnig2022_geolocalise-petit.png)
 
 ## Contexte
 
-> _Décrire le contexte dans lequel le schéma a été élaboré. Il peut être utile de renvoyer ici vers la page du GT CNIG où la documentation du standard correspondant peut être trouvée._
+Obligation réglementaire pour tous les sites industriels classés sous le régime de l’autorisation, l’étude de dangers doit permettre d’analyser de manière exhaustive l’ensemble des scénarios accidentels pouvant survenir sur le site, et de définir des mesures de maîtrise des risques afin d’éviter qu’ils se produisent.
+
+L’article L. 181-25 du code de l’environnement prévoit que le demandeur de l’autorisation fournisse une étude de dangers (EDD) précisant les risques auxquels l’installation peut exposer, directement ou indirectement, les intérêts mentionnés à l’article L. 511-1 en cas d’accident, que la cause soit interne ou externe à l’installation.
+
+Le contenu de l’étude de dangers est précisé à l’article D. 181-15-2 du code de l’environnement et doit notamment respecter, entre autres, l’arrêté du 29 septembre 2005, relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
+
+L’arrêté du 4 septembre 2025 est venu modifier l’arrêté du 29 septembre 2005 précité afin d’imposer que :
+
+* l’exploitant intègre certaines cartographies des phénomènes dangereux représentants les effets de suppression, toxiques et thermiques, agrégés par intensité ;
+
+* ces cartographies soient fournies sous forme d’un document électronique géoréférencé conforme aux standards mentionnés au I de l’article D. 181-15-2 du code de l’environnement (c’est à dire les standards du CNIG).
 
 ## Cadre juridique
 
-> _Citer les textes liés aux données sur lesquelles porte le schéma. Même lorsque l'utilisation du schéma n'est pas mentionnée dans les textes, il peut être utile de faire référence ici aux lois, décrets, arrêtés portant spécifiquement sur les données, leurs conditions de collecte, de partage, etc. Il n'est pas utile de citer les textes plus généraux (portant sur l'open data par exemple)._
+* [Article L. 511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978078) du code de l’environnement ;
+* [Article L. 181-25](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033928661) du code de l’environnement ;
+* [Article D. 181-15-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053222147) du code de l’environnement ;
+* [Arrêté du 29 septembre 2005](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245167) relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
+
 
 ## Finalité
 
-> _Les enjeux et objectifs liés à la création du standard doivent être précisés ici._
+Réaliser un standard pour les cartographies mentionnées aux articles 11 et 12 de l’arrêté du 29 septembre 2005 relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation. Ce standard est défini en cohérence avec les standards CNIG existants dans le domaine : [Géostandard Plan de Prévention des Risques (PPR)](https://github.com/cnigfr/Geostandards-risques-ppr) et [Servitudes d’Utilité Publiques (SUP)](https://github.com/cnigfr/schema-servitudes-utilite-publique).
 
 ## Cas d’usage
 
-> _Présenter ici quelques cas d'usage de données conformes au schéma. Ces cas peuvent exister ou être fictifs._
+Les cas d'usages types de ce standard sont décrits dans la partie [Cas d'utilisation](https://github.com/cnigfr/carto-edd/blob/master/standard/Document.md#cas-dutilisation).
 
 ## Organisation du dépôt
 
@@ -53,52 +45,47 @@ Davantage de documentation peut être trouvée sur le site du CNIG au lien suiva
 * Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
 * Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
 
-> _A supprimer en l'absence de schéma JSON :_
-
 * Le dossier [schéma](schéma) contient le schéma ainsi que les documents qui lui sont liés.
 
 ## Modalités de production des données
 
-> _Dans le cas où la création du standard interviendrait alors que les données sont déjà produites, documenter ici comment leur production a lieu. Dans le cas contraire, cette partie peut être supprimée._
+Les modalités de production des cartographies des études de danger sont décrites dans la partie [Cycle de vie des données](https://github.com/cnigfr/carto-edd/blob/master/standard/Document.md#cycle-de-vie-des-donn%C3%A9es).
 
 ### Données ouvertes
 
 > _Dans le cas où les données sont publiées en open data, sinon, cette partie peut être supprimée._
 
-Les données relatives à <mark>_la thématique_</mark> sont ouvertes et sont à la disposition de tous. Elles seront publiées sur <https://www.data.gouv.fr>
-
 ## Informations et participation au groupe de travail
 
 ### Méthodologie
 
-> _Cette partie peut être laissée telle quelle. Elle vise à expliquer les modalités d'adoption d'un standard par le CNIG._
-
 La méthodologie des groupes de travail du CNIG repose sur une diversité d'approches complémentaires :
 
 * Construire **une gouvernance ouverte** à l'ensemble des parties prenantes, afin de susciter l’adhésion et de créer le cadre favorable à la pérennité du dispositif ;
+
 * Promouvoir et exploiter **les retours d'expériences** afin d'étudier les diversités d'usages et embarquer les acteurs en les positionnant au centre du processus d’alimentation des référentiels géographiques ;
+
 * Privilégier **l’interopérabilité** entre système d'informations à l’échelle nationale pour favoriser le partage et l’échange de données : éviter les doubles stockages, doubles saisies, etc. ;
+
 * S'appuyer sur les **processus éprouvés** de [standardisation du CNIG](http://cnig.gouv.fr/les-standards-cnig-a18959.html#Etapes-de-creation-d-un-Standard-CNIG) et de modélisation suivant [schema.data.gouv.fr](https://guides.etalab.gouv.fr/producteurs-schemas/).
 L’objectif est d'aboutir à terme à un consensus qui se traduise en un standard et un modèle de donnée commun pour la thématique considérée.
 
 ### Actualisation
 
-> _Préciser ici la phase d'avancement dans laquelle se trouve le standard selon la terminologie de [la Fabrique des standards](https://guides.data.gouv.fr/guides-de-data.gouv.fr/fabrique-des-standards/la-fabrique-des-standards) (rédaction, validation, déploiement, etc.). Il peut être utile de donner des éléments de calendrier comme la date de passage en commission des standards ou devant le conseil plénier._
-> _Indiquer également les évolutions prévues ou prévisibles du standard (en fonction des évolutions réglementaires, des retours des utilisateurs, etc.), ainsi que les évolutions prévues pour les bases de données, logiciels, API, etc. concernées par le standard._
+Les travaux de d'élaboration de ce standard ont démarré lors de la réunion de lancement du 12 mai 2026. 
 
-Le projet de standard <mark>_thématique_</mark>, puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs.
+Les compte-rendus, ordres du jour et dates des réunions du groupe de travail sont accessibles sur sa [page dédiée sur le site du CNIG](https://cnig.gouv.fr/gt-cartographies-des-etudes-de-danger-a30202.html).
 
-Les ressources associées et les bases de données correspondantes seront actualisées conformément au standard CNIG <mark>_thématique_</mark>. Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
+Une première version publiée du standard est prévue à l'horizon mi 2027.
 
 ### Comment contribuer
 
-> _Indiquer ici comment contribuer au standard. Par exemple :_
 Vous pouvez contribuer au standard en créant une issue sur cette page (il s'agit d'une fonctionnalité permettant de poser une question, de faire une remarque, une suggestion etc. directement sur github, ce qui en informe automatiquement les responsables du dépôt).
 
 ### Nous contacter
 
-Pour contacter le GT CNIG <mark>_thématique_</mark>, écrire à l’adresse cnig[at]cnig.fr.
+Pour contacter le GT CNIG Cartographies des études de danger, écrire à l’adresse cnig[at]cnig.fr ou utiliser la page [contact du site internet du CNIG](https://cnig.gouv.fr/gt-cartographies-des-etudes-de-danger-a30202.html?page=contact).
 
 ### Licence
 
-Les travaux du GT CNIG <mark>_thématique_</mark> sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
+Les travaux du GT CNIG Cartographies des études de danger sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
