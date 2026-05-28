@@ -156,7 +156,7 @@ Normes référencées :
 `Ce standard est destiné à être utilisé dans le cadre de la réforme DT/DICT.`
 
 
-## Les acteurs et rôles concernés `<optionnel>`
+## Les acteurs et rôles concernés
 
 `Par leurs missions, les différents intervenants (ou utilisateurs) liés au thème peuvent être amenés à se reconnaître dans plusieurs rôles distincts. Ces rôles décrivent les besoins et les capacités de l'acteur.`
 
@@ -170,7 +170,7 @@ Normes référencées :
 | `<**Nom du rôle 2**>` | `<descriptin du rôle 2>`  |
 
 
-## Cas d'utilisation `<optionnel>`
+## Cas d'utilisation
 
 `<Si plusieurs cas d'utilisation existent, indiquer ici comment ils s'articulent>`
 
