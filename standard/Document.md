@@ -21,22 +21,19 @@ Cartographies des études de danger
 | | |
 |---|---|
 | **Titre** | Cartographies des études de danger |
-| **ID** | `<(facultatif) identifiant unique persistant pour identifier le contenu (URI)>` |
-| **Version** | Version 0.0.1 - 28 mai 2026 |
-| **Résumé** | `<bref résumé du contenu>` |
-| **Objectif** | `<(facultatif) informations sur les raisons qui motivent le développement du contenu (en particulier si le standard permet de répondre à une obligation réglementaire)>` |
+| **Version** | Version 0.0.1 - 29 juin 2026 |
+| **Résumé** | Ce standard CNIG, élaboré par le groupe de travail Cartographies des études de  danger définit les cartographies des études de dangers transmises par l’exploitant dans le cadre d’une procédure d’autorisation environnementale pour les installations classées pour la protection de l’environnement, en application des articles 11 et 12 de l’arrêté du 29 septembre 2005 relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation. |
 | **Etendue d'application** | `<étendue des zones géographiques, temporelles ou verticales couvertes par le contenu>` |
 | **Représentation spatiale** | `<(facultatif) la ou les formes de la représentation spatiale du contenu (Ex : données vectorielle, donnée image, mixte)>` |
 | **Résolution spatiale** | `<(facultatif) facteur fournissant une compréhension générale de la densité des données spatiales/du niveau de référence (Ex : 1/50 000, 1m)>` |
-| **Statut du document** | (`● <mettre le point dans l'étape correspondante`) Projet de standard en cours d'élaboration<br>()Appel à commentaires public organisé par le CNIG<br>() Projet de standard proposé à la commission des Standards du CNIG<br>() Standard validé par la Comission des standards du `<date>` |
+| **Statut du document** | Projet de standard en cours d'élaboration ; ~~Appel à commentaires public organisé par le CNIG~~ - ~~Projet de standard proposé à la commission des Standards du CNIG~~ - ~~Standard validé par la Comission des standards du `<date>`~~ |
 | **Licence** | Le présent document est sous Licence Ouverte v2.0 (Open Licence) Etalab |
-| **Diffusion** | `<lien vers la page du standard sur le site du CNIG et titre de la page><br><lien vers la page référençant le standard sur schema.data.gouv.fr et la version minimale du schéma compatible>` |
-| **Formats disponibles** | `<liste des formats sous lequel le document est disponible. Ex Word (.doc), Adobe PDF (.pdf)>` |
-| **Restriction** | `<(facultatif) code(s) de classification décrivant les restrictions d'utilisation du contenu>` |
-| **Thèmes** | `<code(s) de thématiques applicables au contenu, à prendre dans le thésaurus GEMET<br>https://www.eionet.europa.eu/gemet/fr/themes/>` |
+| **Diffusion** | `<à venir>` |
+| **Formats disponibles** | [HTML/Markdown](./Document.md) |
+| **Thèmes** | `<code(s) de thématiques applicables au contenu, à prendre dans le thésaurus GEMET<br>https://www.eionet.europa.eu/gemet/fr/themes/>` (INSPIRE) [Lieux de production et sites industriels](https://www.eionet.europa.eu/gemet/fr/inspire-theme/pf) |
 | **Mots clés** | `<(facultatif) termes formels ou expressions utilisés pour décrire l'objet du contenu>` |
-| **Contact** | `<(facultatif) identification de la ou des personne(s) et organisme(s) associé(s) au standard, et un moyen de communiquer avec eux>`<br>Formulaire de contact du CNIG : https://cnig.gouv.fr/spip.php?page=contact |
-| **Informations complémentaires** | `<(facultatif) toute autre information descriptive sur le contenu et nécessaire à la fiche d'information, par exemple les référentiels (CARET, Sandre, Sar, etc.), normes et standards en lien (ceux que le standard remplace, les normes en lien, etc.).<br>Lien vers github>` |
+| **Contact** | Formulaire de contact du CNIG : https://cnig.gouv.fr/spip.php?page=contact |
+
 
 
 # Sommaire
@@ -69,17 +66,23 @@ Ont également participé aux travaux :
 
 ##  Objectif et raison d'être du standard
 
-`Le présent document est <...>`
+Obligation réglementaire pour tous les sites industriels classés sous le régime de l’autorisation, l’étude de dangers doit permettre d’analyser de manière exhaustive l’ensemble des scénarios accidentels pouvant survenir sur le site, et de définir des mesures de maîtrise des risques afin d’éviter qu’ils se produisent.
 
-`Son objectif est de <...>`
+L’article L. 181-25 du code de l’environnement prévoit que le demandeur de l’autorisation fournisse une étude de dangers (EDD) précisant les risques auxquels l’installation peut exposer, directement ou indirectement, les intérêts mentionnés à l’article L. 511-1 en cas d’accident, que la cause soit interne ou externe à l’installation.
 
-`Il se fonde en partie sur un besoin identifié durant <...>`
+Le contenu de l’étude de dangers est précisé à l’article D. 181-15-2 du code de l’environnement et doit notamment respecter, entre autres, l’arrêté du 29 septembre 2005, relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
 
+L’arrêté du 4 septembre 2025 est venu modifier l’arrêté du 29 septembre 2005 précité afin d’imposer que :
+
+* l’exploitant intègre certaines cartographies des phénomènes dangereux représentants les effets de suppression, toxiques et thermiques, agrégés par intensité ;
+
+* ces cartographies soient fournies sous forme d’un document électronique géoréférencé conforme aux standards mentionnés au I de l’article D. 181-15-2 du code de l’environnement (c’est à dire les standards du CNIG).
+
+Ce document est le standard applicable pour ces cartographies.
 
 ## À qui s'adresse ce document ?
 
-`Ce standard s'adresse à <...>.`
-
+Ce standard s'adresse à ... `<cf. acteurs identifiés dans les Cas d'usages>`.
 
 ## Comment lire le document
 
@@ -101,7 +104,7 @@ Ont également participé aux travaux :
 
 `<Ici le document s'appuie/nécessite la lecture d'autre normes. Toutes les sous parties sont (optionnelles)>`
 
-  **Références normatives**
+### Références normatives
 
 Ce document s’appuie ou nécessite la lecture des normes référencées ci-dessous. Pour les références datées ou versionnées, seule l'édition citée compte. Pour les autres, la dernière édition de la norme s'applique.
 
@@ -111,10 +114,14 @@ Normes référencées :
 ● `ISO xxxxx-x, Titre-Partie x: Titre de la partie`
 ● `ISO xxxxx-xx: 20xx, Titre-Partie xx: Titre de la partie`
 
-  **Cadre réglementaire**
-`<Ce document s'inscrit dns le cadre de la loi...>`
+### Cadre réglementaire
 
-`<La mise en oeuvre de ce document est dcrite dans le règlement...>`
+Ce document s'inscrit dans le cadre réglementaire suivant :
+
+* [Article L. 511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978078) du code de l’environnement relatif aux installations classées pour la protection de l'environnement ;
+* [Article L. 181-25](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033928661) du code de l’environnement relatif au contenu de l'étude de dangers pour ces installations ;
+* [Article D. 181-15-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053222147) du code de l’environnement relatif au dossier de demande d'autorisation ;
+* [Arrêté du 29 septembre 2005](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245167) relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation. Plus particulièrement, les articles 11 et 12 relatifs à leurs cartographies modifiés par l'[Arrêté du 29 juin 2025](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052194272/2026-06-29).
 
   **Standards CNIG**
 

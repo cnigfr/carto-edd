@@ -28,8 +28,7 @@ L’arrêté du 4 septembre 2025 est venu modifier l’arrêté du 29 septembre 
 * [Article L. 511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978078) du code de l’environnement ;
 * [Article L. 181-25](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033928661) du code de l’environnement ;
 * [Article D. 181-15-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053222147) du code de l’environnement ;
-* [Arrêté du 29 septembre 2005](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245167) relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
-
+* Articles 11 et 12 de l'[Arrêté du 29 septembre 2005](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245167) relatif à l’évaluation et à la prise en compte de la probabilité d’occurrence, de la cinétique, de l’intensité des effets et de la gravité des conséquences des accidents potentiels dans les études de dangers des installations classées soumises à autorisation.
 
 ## Finalité
 
@@ -72,7 +71,7 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 ### Actualisation
 
-Les travaux de d'élaboration de ce standard ont démarré lors de la réunion de lancement du 12 mai 2026. 
+Les travaux de d'élaboration de ce standard ont démarré lors de la réunion de lancement du 12 mai 2026.
 
 Les compte-rendus, ordres du jour et dates des réunions du groupe de travail sont accessibles sur sa [page dédiée sur le site du CNIG](https://cnig.gouv.fr/gt-cartographies-des-etudes-de-danger-a30202.html).
 
