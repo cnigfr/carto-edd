@@ -206,11 +206,12 @@ Ce document s'inscrit dans le cadre réglementaire suivant :
 ### Conventions de lecture
 Le MCD est traduit sous forme graphique par (ou des) diagramme(s) de classe(s) UML.
 
-### Diagrammes
+### Diagramme
 
-`Exemple : Schéma applicatif UML du Standard PCRS général.`
+Le schéma suivant représente les concepts relatifs aux cartographies des études de danger.
 
-![Schéma applicatif UML](./ressources/schema_explicatif_uml_standard_pcrs_general.png)
+![Schéma applicatif UML](./ressources/UML-Carto-EDD-general.png)
+{#fig:uml-carto-edd-general-img}
 
 ## Catalogue d'objets
 
